@@ -42,4 +42,11 @@
 * size : 2 bytes (16 bits)
 * Enclosed in single quotes.
 
+## Non-Primitive (Reference) Data Types:
+* These data types are objects and can hold multiple values or complex objects. They include:
 
+1.String: A sequence of characters.
+2.Arrays: A collection of elements of the same data type.
+3.Classes: User-defined data types used to create objects.
+4.Interfaces: A collection of abstract methods.
+5.Enums: Represents a group of constants.
