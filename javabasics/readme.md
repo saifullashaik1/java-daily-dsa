@@ -1,5 +1,45 @@
 # Welcome to Java Daily DSA
+# day 1 :
+## Datatypes,Variables,operators:
 
-# Java Fundamentals :
+## 1.Datetypes:
+* In Java, data types specify the different sizes and values that can be stored in a variable.
+* Java data types are broadly categorized into two types:
 
-## DataTypes : 
+# 1.Primitive datatypes: 
+
+1.int:Most commonly used integer data type.
+*size: 4 bytes (32 bits)
+* Stores whole numbers from -2^31 to 2^31-1.
+
+2.short: Can be used for small integers.
+* Range: -32,768 to 32,767
+* size : 2 bytes (16 bits)
+
+3.byte : Stores whole numbers from -128 to 127.
+* size : 1 byte (8 bits)
+* Useful for saving memory in large arrays.
+
+4.long : Stores whole numbers from -2^63 to 2^63-1.
+* size : 8 bytes (64 bits)
+* Useful when a wider range than int is needed.
+* Must be suffixed with L.
+
+5.float : Stores fractional numbers with 6-7 decimal digits
+* size : 4 bytes (32 bits)
+* Single-precision 32-bit IEEE 754 floating-point.
+* Must be suffixed with f.
+
+6.double: Stores fractional numbers with 15-16 decimal digits
+* size : 8 bytes (64 bits)
+* Double-precision 64-bit IEEE 754 floating-point.
+* Default type for decimal values.
+
+7.boolean :Only two possible values: true or false.
+* size : 1 bit.
+
+8.char : Stores a single 16-bit Unicode character
+* size : 2 bytes (16 bits)
+* Enclosed in single quotes.
+
+
