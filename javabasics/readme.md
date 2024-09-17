@@ -198,8 +198,7 @@ Control flow statements and loops in Java allow you to execute code in different
 
 Syntax:
 
-java
-Copy code
+
 if (condition) {
 // code to be executed if the condition is true
 } else {
@@ -207,8 +206,7 @@ if (condition) {
 }
 Example:
 
-java
-Copy code
+
 int age = 18;
 if (age >= 18) {
 System.out.println("You are an adult.");
@@ -220,8 +218,7 @@ The else if ladder checks multiple conditions in sequence.
 
 Syntax:
 
-java
-Copy code
+
 if (condition1) {
 // code to be executed if condition1 is true
 } else if (condition2) {
@@ -231,8 +228,7 @@ if (condition1) {
 }
 Example:
 
-java
-Copy code
+
 int score = 85;
 if (score >= 90) {
 System.out.println("Grade A");
@@ -246,8 +242,7 @@ The switch statement allows you to select one of many code blocks to be executed
 
 Syntax:
 
-java
-Copy code
+
 switch (expression) {
 case value1:
 // code to be executed if expression equals value1
@@ -261,8 +256,7 @@ default:
 }
 Example:
 
-java
-Copy code
+
 int day = 3;
 switch (day) {
 case 1:
@@ -285,15 +279,11 @@ The for loop is used when you know how many times you want to iterate over a blo
 
 Syntax:
 
-java
-Copy code
 for (initialization; condition; update) {
 // code to be executed
 }
 Example:
 
-java
-Copy code
 for (int i = 0; i < 5; i++) {
 System.out.println("i: " + i);
 }
@@ -302,15 +292,11 @@ The while loop repeats the code as long as the condition is true.
 
 Syntax:
 
-java
-Copy code
 while (condition) {
 // code to be executed
 }
 Example:
 
-java
-Copy code
 int i = 0;
 while (i < 5) {
 System.out.println("i: " + i);
@@ -321,15 +307,11 @@ The do-while loop is similar to the while loop, but it checks the condition afte
 
 Syntax:
 
-java
-Copy code
 do {
 // code to be executed
 } while (condition);
 Example:
 
-java
-Copy code
 int i = 0;
 do {
 System.out.println("i: " + i);

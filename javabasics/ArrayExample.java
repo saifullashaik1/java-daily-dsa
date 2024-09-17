@@ -1,5 +1,7 @@
 package javabasics;
 
+import java.nio.file.ClosedWatchServiceException;
+
 public class ArrayExample {
     public static void main(String[] args) {
         // Declaring an array of integers
@@ -51,6 +53,18 @@ public class ArrayExample {
             }
             System.out.println();
         }
+
+
+        //all important exmples in arrays
+
+        // 1.median of two sorted arrays .
+        // Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+        //The overall run time complexity should be O(log (m+n)
+
+
+
+
+
 
 
 
