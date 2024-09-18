@@ -1,7 +1,7 @@
 package javabasics;
 
 public class MatrixMul {
-    public static int[] multiplyMatrices(int[][] A, int[][] B){
+    public static int[][] multiplyMatrices(int[][] A, int[][] B){
         int rowsA = A.length ;
         int colsA =A[0].length;
         int colsB =B[0].length;
@@ -12,7 +12,7 @@ public class MatrixMul {
             for(int j =0; j<colsB ; j++){
                 result[i][j] = 0 ;
 
-                for (int k = 0; k=colsA;k++){
+                for (int k = 0; k == colsA; k++){
                     result[i][j] += A[i][k] * B[j][k] ;
                 }
 

@@ -1,6 +1,5 @@
-
 public class MatrixAddition {
-    public static int[][] addMatrices(int[][] a,int[][] b){
+    public static int[][] addMatrices(int[][] a, int[][] b){
         int rows = a.length ;
         int columns = a[0].length;
         int[][] result = new int[rows][columns];
@@ -13,8 +12,8 @@ public class MatrixAddition {
         }
         return result;
     }
-    public static void printMatrix(int[] matrix){
-        for(int[]row : matrix){
+    public static void printMatrix(int[][] matrix){
+        for(int[] row : matrix){
             for (int val : row){
                 System.out.print(val + " ");
 
