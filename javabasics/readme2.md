@@ -84,3 +84,15 @@ Merge two sorted linked lists into a single sorted list.
 * 6.Traverse the list and remove duplicate nodes.
 * 7.Nth Node from the End:
 Use two pointers to find the nth node from the end of the list.
+
+# Stack :
+* A stack is a linear data structure that follows the Last In, First Out (LIFO) principle.
+* This means that the last element added to the stack will be the first one to be removed.
+* Think of it like a stack of plates: the last plate placed on top is the first one that will be removed.
+
+## Key Stack Operations:
+* 1.push(x): Adds element x to the top of the stack.
+* 2.pop(): Removes and returns the top element of the stack.
+* 3.peek() / top(): Returns the top element without removing it from the stack.
+* 4.isEmpty(): Returns true if the stack is empty, otherwise false.
+
